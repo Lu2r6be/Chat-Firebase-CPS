@@ -51,7 +51,7 @@ Para executar a API localmente, entre em `server`, execute `npm install`, copie 
 
 As versões atuais de `firestore.rules` e `database.rules.json` foram publicadas no Firebase. O app Android `com.lu2r6be.chatfirebasecps` foi registrado no Firebase e usa `google-services.json`. O projeto EAS `@lu2r6be/chat-firebase` já está vinculado.
 
-O APK de desenvolvimento foi enviado ao EAS. Ainda é necessário cadastrar a credencial FCM para push, instalar o APK em um Android físico, permitir notificações e testar cadastro com foto, troca de foto, mensagens, políticas e abertura da conversa pelo push.
+O APK de desenvolvimento foi gerado no EAS e a credencial FCM V1 está cadastrada nas credenciais do EAS, fora do GitHub. Para usar o app, instale o APK em um Android físico e permita as notificações.
 
 O Vercel atende a API sem um processo local, mas o plano gratuito tem limites mensais. As credenciais administrativas e do Cloudinary devem ficar somente nas variáveis secretas da hospedagem.
 
@@ -61,7 +61,7 @@ O `.env.example` da raiz mostra como substituir a URL da API; `server/.env.examp
 
 O Expo Go serve para testar o chat, mas notificações push remotas exigem um development build. O app Android, o `google-services.json` e `expo.android.googleServicesFile` já estão configurados. O arquivo JSON contém a configuração pública do app Android; não inclua uma chave de conta de serviço nele.
 
-O projeto está vinculado ao EAS com o ID `e2315009-7f40-494e-b621-c3a6220408fa`. Para concluir o push Android, cadastre a credencial FCM V1 nas credenciais do EAS e instale o APK de desenvolvimento gerado. A chave FCM deve ficar no EAS, fora do GitHub. Para push no iOS, também é necessária uma chave APNs; a geração dessa credencial exige uma conta paga do Apple Developer.
+O projeto está vinculado ao EAS com o ID `e2315009-7f40-494e-b621-c3a6220408fa`. A credencial FCM V1 do Android está cadastrada nas credenciais do EAS; a chave fica somente no EAS, fora do GitHub, e o APK de desenvolvimento gerado pode ser instalado no aparelho. Para push no iOS, também é necessária uma chave APNs; a geração dessa credencial exige uma conta paga do Apple Developer.
 
 O projeto pode ser compilado para iOS com o identificador `com.lu2r6be.chatfirebasecps`; as credenciais de push do iOS ainda não foram configuradas.
 
@@ -115,7 +115,3 @@ O Firebase Storage exige o plano Blaze neste projeto; nenhuma cobrança foi ativ
 - `App.tsx` reúne a navegação e a abertura de conversas por notificação.
 - `src/screens` contém as telas; `src/services` concentra o acesso ao Firebase e à API.
 - `server/src/app.js` implementa a API; `firestore.rules` e `database.rules.json` definem as regras dos bancos.
-
-## Evidências pendentes
-
-Após os testes no dispositivo, adicionar capturas das telas principais e uma evidência de push recebido.
