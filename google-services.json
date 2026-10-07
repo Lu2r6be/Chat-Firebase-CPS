@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "604672934550",
+    "firebase_url": "https://chat-firebase-cps-default-rtdb.firebaseio.com",
+    "project_id": "chat-firebase-cps",
+    "storage_bucket": "chat-firebase-cps.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604672934550:android:f02c569a0c9f5847ffb8b7",
+        "android_client_info": {
+          "package_name": "com.lu2r6be.chatfirebasecps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDegMdEHqUTfM5mBx4a7bZQMfr-kzmd5nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

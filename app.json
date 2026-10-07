@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Chat Firebase",
+    "slug": "chat-firebase",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permita acessar suas fotos para escolher uma imagem de perfil ou grupo."
+        }
+      ]
+    ],
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.lu2r6be.chatfirebasecps",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.lu2r6be.chatfirebasecps",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e2315009-7f40-494e-b621-c3a6220408fa"
+      }
+    },
+    "owner": "lu2r6be"
+  }
+}

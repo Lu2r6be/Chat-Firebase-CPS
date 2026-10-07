@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+.expo/
+dist/
+.env
+.env.*
+!.env.example
+serviceAccountKey.json
+serviceAccount*.json
+*-firebase-adminsdk-*.json
+firebaseAdminCredentials.json
+GoogleService-Info.plist
+*.pem
+*.p12

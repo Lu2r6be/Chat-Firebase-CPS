@@ -1,0 +1,9 @@
+{
+  "apiKey": "AIzaSyCa4J0WPa4sJ53AV4aL2WMgiLes4i7Lg6w",
+  "authDomain": "chat-firebase-cps.firebaseapp.com",
+  "databaseURL": "https://chat-firebase-cps-default-rtdb.firebaseio.com",
+  "projectId": "chat-firebase-cps",
+  "storageBucket": "chat-firebase-cps.firebasestorage.app",
+  "messagingSenderId": "604672934550",
+  "appId": "1:604672934550:web:9fab8c139d5f8fe3ffb8b7"
+}
