@@ -115,3 +115,21 @@ O Firebase Storage exige o plano Blaze neste projeto; nenhuma cobrança foi ativ
 - `App.tsx` reúne a navegação e a abertura de conversas por notificação.
 - `src/screens` contém as telas; `src/services` concentra o acesso ao Firebase e à API.
 - `server/src/app.js` implementa a API; `firestore.rules` e `database.rules.json` definem as regras dos bancos.
+
+## Capturas de tela e evidência de push
+
+Capturas feitas no APK de desenvolvimento instalado em um Android físico.
+
+| Tela | Captura |
+| --- | --- |
+| Login | <img src="docs/screenshots/01-login.jpg" width="240" alt="Tela de login"> |
+| Lista de conversas e grupos | <img src="docs/screenshots/02-conversas.jpg" width="240" alt="Lista de conversas e grupos"> |
+| Conversa individual | <img src="docs/screenshots/03-conversa-individual.jpg" width="240" alt="Conversa individual"> |
+| Grupo, com mensagem direcionada | <img src="docs/screenshots/04-grupo.jpg" width="240" alt="Conversa em grupo"> |
+
+Evidência de push recebido no aparelho (notificação "Nova mensagem"):
+
+<img src="docs/screenshots/05-push-recebido.jpg" width="480" alt="Notificação push recebida">
+
+Ao tocar na notificação, o aplicativo abre a conversa correspondente, como mostra a captura da conversa individual acima.
+
